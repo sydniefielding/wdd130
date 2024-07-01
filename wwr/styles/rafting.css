@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@400;700&display=swap');
+
+
+:root {
+    --primary-color: #181c75;
+    --secondary-color: #ffffff;
+    --accent1-color: #b80000;
+    --accent2-color: #004429;
+
+    --heading-font: 'Kaushan Script', Arial;
+    --paragraph-font: 'Roboto', sans-serif;
+}
+
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+
+nav.sociallinks a {
+    text-decoration: none;
+}
+
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.hero h1 {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    color: white;
+    background-color: rgba(5, 12, 40, 0.75);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.hero article {
+    position: absolute;
+    top: 450px;
+    left: 125px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    width: 900px;
+}
+
+
+.hero article img {
+    float: right;
+    margin-left: 20px;
+    max-width: 400px;
+}
+
+
+footer img {
+    width: 100px;
+    padding: 20px
+}
