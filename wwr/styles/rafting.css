@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@400;700&display=swap');
 
-
 :root {
     --primary-color: #181c75;
     --secondary-color: #ffffff;
@@ -11,23 +10,19 @@
     --paragraph-font: 'Roboto', sans-serif;
 }
 
-
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-
 
 p {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
 }
 
-
 nav.sociallinks a {
     text-decoration: none;
 }
-
 
 body {
     max-width: 1200px;
@@ -35,19 +30,16 @@ body {
     padding: 20px;
 }
 
-
 .hero {
     position: relative;
     text-align: center;
 }
-
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-
 
 .hero h1 {
     position: absolute;
@@ -62,7 +54,6 @@ body {
     text-align: center;
 }
 
-
 .hero article {
     position: absolute;
     top: 450px;
@@ -72,15 +63,117 @@ body {
     width: 900px;
 }
 
-
 .hero article img {
     float: right;
     margin-left: 20px;
     max-width: 400px;
 }
 
-
 footer img {
     width: 100px;
-    padding: 20px
+    padding: 20px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    border-bottom: 1px solid var(--primary-color);
+    max-width: 1000px;
+    margin: 1rem auto;
+    padding: 0 1rem;
+}
+
+header img {
+    max-width: 150px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #181c75;
+    padding: 1rem;
+}
+
+nav a {
+    color: var(--secondary-color);
+    margin: 0 10px;
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+}
+
+.history {
+padding: 20px;
+}
+
+
+.history h2 {
+    text-align: center;
+    width: 100%
+}
+
+
+.history-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.history-content p {
+    width: 45%;
+}
+
+
+.history-content img {
+    width: 30%;
+    max-width: 300px;
+    margin: 20px 0;
+}
+
+
+.adventures-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.adventures h2 {
+    text-align: center;
+    width: 100%
+}
+
+.adventures-content figure {
+    margin: 10px;
+    text-align: center;
+}
+
+.adventures-content img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+footer nav {
+    display: flex;
+    gap: 10px;
+}
+
+footer img {
+    width: 50px;
+    height: auto;
 }
