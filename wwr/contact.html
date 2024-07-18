@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sierra Rafting Co!</title>
+    <meta name="description" content="Get in touch with Sierra Rafting Co for any inquiries or questions.">
+    <meta name="author" content="Sydnie Fielding">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <img src="images/Rapids_logo2.jpg" alt="Rafting Site Logo">
+        <h1>Sierra Rafting Co</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="company-info">
+            <h2>Contact Information</h2>
+            <p>Address: 2099 S. State College Blvd., Suite 600, Anaheim, CA 92806</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: sierrarafting@gmail.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <section id="employee-profiles">
+                <h2>Meet Our Team</h2>
+                <div class="employee">
+                    <img src="images/guy1.jpg" alt="John Doe" width="150">
+                    <p>Bruce Lee - Guide</p>
+                </div>
+                <div class="employee">
+                    <img src="images/gir1.jpg" alt="Jane Smith" width="150">
+                    <p>Marilyn Monroe - Customer Service</p>
+                </div>
+                <div class="employee">
+                    <img src="images/guy2.jpg" alt="Bob Johnson" width="150">
+                    <p>Tom Hiddleston - Safety Instructor</p>
+                </div>
+            </section>                 
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <input type="radio" id="general-inquiry" name="purpose" value="general-inquiry">
+                    <label for="general-inquiry">General Inquiry</label><br>
+                    <input type="radio" id="reservation-question" name="purpose" value="reservation-question">
+                    <label for="reservation-question">Reservation Question</label><br>
+                    <input type="radio" id="website-suggestion" name="purpose" value="website-suggestion">
+                    <label for="website-suggestion">Website Suggestion</label>
+                </fieldset>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> ©2024 🌊 Sierra Rafting Co 🌊 Sydnie Fielding </p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.jpg" alt="Facebook">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/insta.jpg" alt="Instagram">
+            </a>
+            <a href="https://tiktok.com">
+                <img src="images/tiktok.png" alt="TikTok">
+            </a>
+        </nav>
+    </footer>   
+</body>
+</html>
