@@ -10,7 +10,7 @@
     --paragraph-font: 'Roboto', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -161,6 +161,11 @@ padding: 20px;
     display: block;
 }
 
+.adventures-content figcaption {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -171,9 +176,141 @@ footer {
 footer nav {
     display: flex;
     gap: 10px;
+    background: rgba(255, 255, 255, 0);
 }
 
 footer img {
     width: 50px;
+    height: auto;
+}
+
+
+.intro, .trips, .trip-table, .call-to-action {
+    margin-bottom: 20px;
+}
+
+.trips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+.trip {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.trip img {
+    max-width: 100%;
+    height: auto;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+.trip-table th, .trip-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.call-to-action a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+
+.intro {
+    font-family: var(--paragraph-font);
+}
+
+
+.hero-text {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    color: white;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.newsletter {
+    margin: 20px 0;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+.newsletter label {
+    margin-bottom: 5px;
+}
+
+.newsletter input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.newsletter button {
+    padding: 10px;
+    background: #004429;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: var(--paragraph-font);
+    color: white;
+}
+
+.call-to-action {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.call-to-action a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.offerings {
+    margin: 20px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.grid-item {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
     height: auto;
 }

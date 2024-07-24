@@ -38,6 +38,8 @@ header {
     max-width: 1000px;
     margin: 1rem auto;
     padding: 0 1rem;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 header img {
@@ -72,6 +74,7 @@ footer {
 footer nav {
     display: flex;
     gap: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 footer img {
@@ -81,6 +84,8 @@ footer img {
 
 #company-info {
     margin: 20px 0;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
 }
 
 #company-info iframe {
@@ -101,26 +106,34 @@ footer img {
 
 #contact-form {
     margin: 20px 0;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
 }
 
 #contact-form form {
     display: flex;
     flex-direction: column;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
 }
 
 #contact-form label {
     display: inline-flex;
     align-items: center;
     margin-bottom: 10px;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
 }
 
 #contact-form input[type="checkbox"] {
     margin-right: 10px;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
 }
 
 #contact-form button {
     padding: 10px;
-    background-color: #007BFF;
+    background-color: #004429;
     color: #fff;
     border: none;
     cursor: pointer;
